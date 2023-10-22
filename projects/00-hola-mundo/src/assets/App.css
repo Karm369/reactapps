@@ -1,0 +1,64 @@
+.jk-twittercard{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+.jk-twittercard-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.twittercard-header-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.twittercard-div-span{
+    opacity: 0.6;
+}
+
+.jk-twittercard-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+
+}
+.jk-button-siguiendo{
+    margin-left:16px ;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.jk-button-Seguir{
+    margin-left:16px ;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    transition: 0.3s ease background-color;
+}
+
+.jk-button-Seguir:hover{
+    cursor: pointer;
+    background-color: #254dcf;
+    transition: 0.3s ease background-color;
+}
+.jk-button-siguiendo{
+    border:1px solid rgba(255, 0, 0, 0.404) ;
+    
+    background-color: #1c1d20a8;
+    color: #8c8e94a8;
+    transition: 0.3s ease background-color;
+}
+.jk-button-siguiendo:hover{
+    background-color: #e24545;
+}
+.jk-twittercard-unfollow{
+    display: none;
+}
