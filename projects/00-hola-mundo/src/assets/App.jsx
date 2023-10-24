@@ -61,7 +61,7 @@ export function App (){
         {
             users.map(user=>{
                 const {userName,name,isFollowing}= user
-                return(<TwitterFollorCard userName={userName} initialIsFollowing={isFollowing} >
+                return(<TwitterFollorCard key={userName} userName={userName} initialIsFollowing={isFollowing} >
                     {name}
                 </TwitterFollorCard>)
             })
